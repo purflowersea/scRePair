@@ -33,13 +33,13 @@ You can train seRePair with the following command:
 ## Step 1: Pre-training model
 
 ```bash
-python main.py --name PBMC-3k --pretrain True
+python main.py --name Ma-2020-1 --pretrain True
 ```
 
 ## Step 2: Formal training model with pre-training model
 
 ```bash
-python main.py --name PBMC-3k
+python main.py --name Ma-2020-1
 ```
 
 
